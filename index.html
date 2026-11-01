@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_MX" />
+  <meta property="og:title" content="Manuel Camarillo | Desarrollo web y software" />
+  <meta property="og:description" content="Portafolio de Manuel Camarillo: desarrollo web, sistemas de punto de venta y soluciones digitales." />
+  <meta property="og:url" content="https://jmanuelcs.github.io/portafolio/" />
+  <meta property="og:image" content="https://jmanuelcs.github.io/portafolio/assets/mc-logo.png" />
   <meta name="theme-color" content="#080b0a" />
   <meta name="description" content="Portafolio de Manuel Camarillo. Desarrollo web, sistemas de punto de venta y soluciones digitales." />
   <title>Manuel Camarillo | Desarrollador</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/mc-logo.png" type="image/png" />
+  <link rel="canonical" href="https://jmanuelcs.github.io/portafolio/" />
   <link rel="stylesheet" href="styles.css" />
   <script src="script.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <canvas id="binary-rain" aria-hidden="true"></canvas>
   <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
   <header class="header" id="inicio">
@@ -22,7 +33,7 @@
       <div class="nav-links" id="nav-links"><a href="#sobre-mi">Sobre mí</a><a href="#proyectos">Proyectos</a><a href="#habilidades">Tecnologías</a><a class="nav-contact" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a></div>
     </nav>
   </header>
-  <main>
+  <main id="contenido">
     <section class="hero container" aria-labelledby="hero-title">
       <div class="hero-copy reveal">
         <div class="eyebrow"><span class="status-dot"></span> DESARROLLO WEB · SOFTWARE · NFC</div>
@@ -42,7 +53,7 @@
       <article class="project-card reveal project-cajago">
         <div class="project-visual pos-visual real-project-visual">
           <span class="visual-kicker">01 / SOFTWARE DE GESTIÓN</span>
-          <img class="project-cover cajago-cover" src="assets/cajago-oficial.webp" alt="Logotipo oficial de CajaGo, carrito azul sobre fondo oscuro" loading="lazy">
+          <img class="project-cover cajago-cover" src="assets/cajago-oficial.webp" alt="Logotipo oficial de CajaGo, carrito azul sobre fondo oscuro" loading="lazy" decoding="async">
           <span class="visual-index">CAJAGO <span aria-hidden="true">↗</span></span>
         </div>
         <div class="project-info"><div class="project-meta"><span>SISTEMA DE PUNTO DE VENTA</span><span>01</span></div><h3>CajaGo</h3>
@@ -53,7 +64,7 @@
       <article class="project-card reveal project-nfc">
         <div class="project-visual nfc-visual real-project-visual">
           <span class="visual-kicker">02 / AUTENTICIDAD DIGITAL</span>
-          <div class="nfc-image-stage"><div class="nfc-halo"></div><img class="project-cover nfc-cover" src="assets/nfc-astroblack.webp" alt="Captura real de la página AstroBlack: gorra negra con confirmación Original" loading="lazy"></div>
+          <div class="nfc-image-stage"><div class="nfc-halo"></div><img class="project-cover nfc-cover" src="assets/nfc-astroblack.webp" alt="Captura real de la página AstroBlack: gorra negra con confirmación Original" loading="lazy" decoding="async"></div>
           <span class="visual-index">NFC AUTHENTICITY <span aria-hidden="true">↗</span></span>
         </div>
         <div class="project-info"><div class="project-meta"><span>WEB / TECNOLOGÍA NFC</span><span>02</span></div><h3>NFC Authenticity</h3>
@@ -65,8 +76,12 @@
   </div>
 </section>
     <section class="section skills container" id="habilidades"><div class="section-heading reveal"><span class="section-number">03 / TECNOLOGÍAS</span><h2>Herramientas para<br><span>hacerlo posible.</span></h2></div><p class="skills-intro reveal">Tecnología con intención. Cada herramienta aporta una pieza a la experiencia.</p><div class="skill-grid reveal"><div class="skill-item"><div class="skill-top"><span class="skill-number">01</span><span class="skill-spark" aria-hidden="true">✳</span></div><div class="skill-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5 4 10l5 5M15 5l5 5-5 5M13 3l-2 14"/></svg></div><div class="skill-copy"><strong>HTML</strong><small>ESTRUCTURA</small></div></div><div class="skill-item"><div class="skill-top"><span class="skill-number">02</span><span class="skill-spark" aria-hidden="true">✳</span></div><div class="skill-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/><circle cx="9" cy="7" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="11" cy="17" r="2"/></svg></div><div class="skill-copy"><strong>CSS</strong><small>DISEÑO VISUAL</small></div></div><div class="skill-item"><div class="skill-top"><span class="skill-number">03</span><span class="skill-spark" aria-hidden="true">✳</span></div><div class="skill-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m13 2-8 11h7l-1 9 8-12h-7l1-8Z"/></svg></div><div class="skill-copy"><strong>JavaScript</strong><small>INTERACTIVIDAD</small></div></div><div class="skill-item"><div class="skill-top"><span class="skill-number">04</span><span class="skill-spark" aria-hidden="true">✳</span></div><div class="skill-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="5" r="2"/><circle cx="17" cy="9" r="2"/><circle cx="7" cy="19" r="2"/><path d="M7 7v10M9 12h4a4 4 0 0 0 4-4"/></svg></div><div class="skill-copy"><strong>Git & GitHub</strong><small>CONTROL DE VERSIONES</small></div></div><div class="skill-item"><div class="skill-top"><span class="skill-number">05</span><span class="skill-spark" aria-hidden="true">✳</span></div><div class="skill-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="14" height="11" rx="2"/><rect x="17" y="8" width="5" height="12" rx="1"/><path d="M6 19h7"/></svg></div><div class="skill-copy"><strong>Diseño adaptable</strong><small>EXPERIENCIA MULTIDISPOSITIVO</small></div></div><div class="skill-item"><div class="skill-top"><span class="skill-number">06</span><span class="skill-spark" aria-hidden="true">✳</span></div><div class="skill-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8a6 6 0 0 1 0 8M9 5a10 10 0 0 1 0 14M13 2a14 14 0 0 1 0 20"/><circle cx="3" cy="12" r="1"/></svg></div><div class="skill-copy"><strong>Tecnología NFC</strong><small>EXPERIENCIAS CONECTADAS</small></div></div></div></section>
-    <section class="contact-section" id="contacto"><div class="container contact-inner reveal"><span class="section-number">04 / CONTACTO</span><p>¿Tienes un proyecto en mente?</p><h2>Hagámoslo<br><em>realidad<span>.</span></em></h2><div class="contact-actions"><a class="btn btn-primary" href="mailto:cajago.sistemas@gmail.com?subject=Consulta%20sobre%20desarrollo%20digital">Enviar correo <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="https://github.com/JManuelCS" target="_blank" rel="noopener noreferrer">Mi GitHub <span aria-hidden="true">↗</span></a></div><p class="contact-caption">Disponible para conversar sobre proyectos y soluciones digitales.</p></div></section>
+    <section class="contact-section" id="contacto"><div class="container contact-inner reveal"><span class="section-number">04 / CONTACTO</span><p>¿Tienes un proyecto en mente?</p><h2>Hagámoslo<br><em>realidad<span>.</span></em></h2><div class="contact-actions"><a class="btn btn-primary discord-main" href="https://discord.com/users/1540348197099278356" target="_blank" rel="noopener noreferrer">Hablemos por Discord <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="mailto:cajago.sistemas@gmail.com?subject=Consulta%20sobre%20desarrollo%20digital">Enviar correo <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="https://github.com/JManuelCS" target="_blank" rel="noopener noreferrer">Mi GitHub <span aria-hidden="true">↗</span></a></div><p class="contact-caption">Consultas y cotizaciones por Discord. También puedes escribirme por correo. Es posible que Discord te pida iniciar sesión.</p></div></section>
   </main>
+  <a class="discord-float" href="https://discord.com/users/1540348197099278356" target="_blank" rel="noopener noreferrer" aria-label="Contactar a Manuel Camarillo por Discord" title="Hablemos por Discord">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor"><path d="M19.73 5.38A18.15 18.15 0 0 0 15.3 4l-.54 1.12a16.5 16.5 0 0 0-5.52 0L8.7 4a18.2 18.2 0 0 0-4.43 1.38C1.47 9.49.71 13.5 1.09 17.46a18.3 18.3 0 0 0 5.44 2.74l1.17-1.89c-.65-.24-1.28-.54-1.87-.89.16-.12.32-.24.47-.37 3.61 1.68 7.9 1.68 11.47 0 .16.13.32.25.48.37-.6.35-1.23.65-1.88.89l1.17 1.89a18.2 18.2 0 0 0 5.44-2.74c.46-4.58-.78-8.56-3.26-12.08ZM8.5 15.02c-1.04 0-1.9-.96-1.9-2.14s.84-2.14 1.9-2.14 1.92.97 1.9 2.14c0 1.18-.85 2.14-1.9 2.14Zm7 0c-1.04 0-1.9-.96-1.9-2.14s.84-2.14 1.9-2.14 1.92.97 1.9 2.14c0 1.18-.85 2.14-1.9 2.14Z"/></svg>
+    <span>Discord</span>
+  </a>
   <footer class="footer container"><a class="footer-brand" href="#inicio" aria-label="Volver al inicio"><img src="assets/mc-logo.png" alt="MC" /></a><span>© <span id="year">2026</span> Manuel Camarillo. Hecho con intención.</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
 </body>
 </html>
